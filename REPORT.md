@@ -14,7 +14,7 @@
 - Mã SHA-256 của gói CVAT gốc của bạn: 10ae0834b927458f295c408673e778c2f1494519234e82262e708504014c1d74
 - Nguồn đối chiếu: bạn cùng cặp hoặc bộ tham chiếu do người hướng dẫn thực hành cấp: Bộ tham chiếu do giảng viên/trợ giảng cấp
 - Mã SHA-256 của gói đối chiếu:c8bbc767d8bb9a29f4ca5abf0c3516e5c2af94c58143a980b0148cfe0b500d2b
-- Nếu làm cá nhân, ghi mã lần phát và thời điểm nhận bộ tham chiếu: Lần 1 - Ngày 14/09/2026
+- Nếu làm cá nhân, ghi mã lần phát và thời điểm nhận bộ tham chiếu: Lần 1 vào lúc 10h59 ở nhóm 2a-lab-d305 - Ngày 14/09/2026
 
 Giải thích vì sao bài của bạn vẫn độc lập trước khi đối chiếu:
 
@@ -30,12 +30,12 @@ Nêu một ví dụ cho thấy lớp và thuộc tính là hai loại thông tin
 
 Lớp (class) xác định bản chất đối tượng là gì (ví dụ: `car` hay `truck`), trong khi thuộc tính (attribute) mô tả trạng thái quan sát hoặc tính chất hình học của đối tượng đó trong khung hình (ví dụ `visibility` là `clear` hay `occluded`, `boundary` là `inside` hay `truncated`). Một chiếc ô tô con (`car`) vẫn có thể bị che khuất một phần (`occluded`) hoặc bị mép ảnh cắt ngang (`truncated`).
 
-## 3. Tự kiểm tra và sửa nhãn
+## 3. Tự kiểm tra và sửa nhãn`
 
 | Trước khi sửa | Loại lỗi | Cách phát hiện | Sau khi sửa và quy tắc |
 | --- | --- | --- | --- |
 | Nhầm lẫn ranh giới hộp giới hạn bao trùm quá rộng ra ngoài thân xe | hình học | Kiểm tra trực quan bằng cách bật hiển thị hộp chi tiết và so sánh với mép thực tế của phương tiện trong ảnh. | Thu hẹp hộp giới hạn bám sát phần thân vật thể hiển thị theo quy tắc vẽ sát phần vật thể nhìn thấy. |
-
+`
 - Số hộp `needs_review` trước và sau khi kiểm: Trước: 5 | Sau: 0
 - Một quyết định chưa đủ bằng chứng và cách bạn xin hỗ trợ: Khi gặp một phương tiện bị che khuất quá lớn phía sau góc khuất bóng râm không phân biệt rõ là xe tải nhỏ hay xe van, tôi đã đánh dấu `needs_review`, ghi chú tình huống vào phiếu quy tắc và trao đổi trực tiếp với Lab Coach để thống nhất cách xử lý theo hướng dẫn thực hành.
 
