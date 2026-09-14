@@ -77,6 +77,6 @@ Hoàn thành trước khi xem bài của người khác hoặc bộ nhãn tham c
 - [x] Mỗi hộp có đủ ba thuộc tính.
 - [x] Đã xử lý mọi hộp `needs_review`.
 - [x] Đã hoàn thành ba tình huống trước khi xem nguồn đối chiếu.
-- [x] Nếu làm theo cặp, hai người đã xuất bài độc lập trước khi trao đổi.
+- [ ] Nếu làm theo cặp, hai người đã xuất bài độc lập trước khi trao đổi.
 - [x] Nếu làm cá nhân, bài riêng đã được kiểm trước khi nhận bộ tham chiếu.
 - [x] Số vật thể thực tế: 90 — 40–60 là mục tiêu khối lượng, không phải điểm cắt.
